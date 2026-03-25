@@ -1,98 +1,81 @@
-# 🚀 THE MAHASHA - Training & Development Platform
+<div align="center">
 
-A modern, high-performance, and fully responsive website built for a premium tech training and software development agency. Inspired by modern SaaS landing pages, featuring dark mode UI, glassmorphism, and smooth scroll animations.
+# 🚀 THE MAHASHA
+
+### Training & Development Platform
+
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-38bdf8?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com/)
+
+A modern, high-performance, fully responsive website built for **THE MAHASHA** — a premium tech training and software development agency.
+
+**[View Live Demo →](http://localhost:3000)**
 
 ---
 
-## 📸 Previews
+</div>
 
-### Hero Section
-> Animated background glows, gradient text, and animated stat counters.
-![Hero Section](./public/screenshots/hero.png)
+## 📸 Screenshots
 
-### Services & Products
-> Interactive cards with hover effects, custom SVGs, and glassmorphism.
-![Services Section](./public/screenshots/services.png)
+### 🏠 Hero Section
+> Animated gradient text, glowing background effects, scroll animations, and live stat counters.
 
-*(Note: Add your actual screenshot images to the `public/screenshots/` folder to display them here)*
+<div align="center">
+  <img src="./public/screenshots/hero.png" alt="Hero Section" width="100%" />
+</div>
+
+---
+
+### 🛠️ Services Section
+> Interactive service cards with hover effects, gradient icons, and tag badges.
+
+<div align="center">
+  <img src="./public/screenshots/services.png" alt="Services Section" width="100%" />
+</div>
+
+---
+
+## ✨ Features
+
+| Feature | Description |
+|---------|------------|
+| 🎨 **Dark Theme** | Deep dark backgrounds with purple & pink gradient accents |
+| 🪄 **Scroll Animations** | Custom ScrollReveal component with intersection observer |
+| 🔢 **Animated Counters** | Numbers count up when scrolled into view |
+| 📱 **Fully Responsive** | Perfect on Mobile, Tablet, and Desktop |
+| 🧭 **Glass Navbar** | Sticky navigation with blur effect & dropdown menus |
+| ♾️ **Logo Marquee** | Infinite scrolling technology ticker |
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Framework:** [Next.js 14](https://nextjs.org/) (App Router)
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-- **Language:** [TypeScript](https://www.typescriptlang.org/)
-- **Animations:** Custom CSS Keyframes & Intersection Observer API
-- **Architecture:** Component-based, highly modular
+- **Frontend Framework:** Next.js 14 (App Router)
+- **Styling:** Tailwind CSS 3
+- **Language:** TypeScript 5
+- **Animations:** Custom CSS + Intersection Observer API
+- **Icons:** Inline SVGs + Emoji
 
 ---
 
-## ✨ Key Features
+## 🚀 Getting Started
 
-- **🎨 Modern Dark Theme:** Deep dark backgrounds with vibrant purple and pink gradient accents.
-- **🪄 Scroll Animations:** Custom `ScrollReveal` component that animates elements as they enter the viewport.
-- **🔢 Animated Counters:** Numbers that count up automatically when scrolled into view.
-- **📱 Responsive Design:** Flawless experience across Mobile, Tablet, and Desktop.
-- **🧭 Interactive Navigation:** Sticky glass-effect navbar with dropdown menus and a mobile hamburger menu.
-- **♾️ Infinite Marquee:** Smooth continuous scrolling ticker for technology logos.
-- **🧩 Reusable Components:** Clean, maintainable code structure separated into logical components.
+### Prerequisites
 
----
+Make sure you have **Node.js 18+** installed.
 
-## 📁 Project Structure
+### Installation
 
-```text
-the-mahasha/
-├── public/                 # Static assets (images, icons)
-├── src/
-│   ├── app/                # Next.js App Router
-│   │   ├── globals.css     # Tailwind & Custom CSS variables
-│   │   ├── layout.tsx      # Root HTML layout
-│   │   ├── page.tsx        # Main Landing Page
-│   │   ├── projects/       # Projects Page
-│   │   ├── saas/           # SaaS Products Page
-│   │   ├── training/       # Training Page
-│   │   └── youtube/        # YouTube Page
-│   └── components/         # Reusable UI Components
-│       ├── AnimatedCounter.tsx
-│       ├── CTA.tsx
-│       ├── Footer.tsx
-│       ├── Hero.tsx
-│       ├── LogoTicker.tsx
-│       ├── Navbar.tsx
-│       ├── Newsletter.tsx
-│       ├── ProjectsShowcase.tsx
-│       ├── SaasProducts.tsx
-│       ├── ScrollReveal.tsx
-│       ├── Services.tsx
-│       ├── Testimonials.tsx
-│       ├── TrainingPrograms.tsx
-│       └── YouTubeSection.tsx
-🚀 Getting Started
-Follow these instructions to run the project locally on your machine.
+```bash
+# 1. Clone the repository
+git clone https://github.com/prashanth110203/The-Mahasha-fullweb.git
 
-Prerequisites
-Make sure you have Node.js installed (v18 or higher).
+# 2. Enter the project folder
+cd The-Mahasha-fullweb
 
-Installation
-Clone or Open the Repository
-
-Bash
-
-cd the-mahasha
-Install Dependencies
-
-Bash
-
+# 3. Install dependencies
 npm install
-Run the Development Server
 
-Bash
-
+# 4. Start development server
 npm run dev
-View the Website
-Open http://localhost:3000 with your browser to see the result.
-
-
-Copyright © 2026 THE MAHASHA. All rights reserved.
