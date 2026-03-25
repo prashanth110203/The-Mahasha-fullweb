@@ -10,8 +10,6 @@
 
 A modern, high-performance, fully responsive website built for **THE MAHASHA** — a premium tech training and software development agency.
 
-**[View Live Demo →](http://localhost:3000)**
-
 ---
 
 </div>
@@ -22,7 +20,7 @@ A modern, high-performance, fully responsive website built for **THE MAHASHA** �
 > Animated gradient text, glowing background effects, scroll animations, and live stat counters.
 
 <div align="center">
-  <img src="./public/screenshots/hero.png" alt="Hero Section" width="100%" />
+  <img src="https://raw.githubusercontent.com/prashanth110203/The-Mahasha-fullweb/main/the-mahasha/public/screenshots/hero.png" alt="Hero Section" width="100%" />
 </div>
 
 ---
@@ -31,7 +29,7 @@ A modern, high-performance, fully responsive website built for **THE MAHASHA** �
 > Interactive service cards with hover effects, gradient icons, and tag badges.
 
 <div align="center">
-  <img src="./public/screenshots/services.png" alt="Services Section" width="100%" />
+  <img src="https://raw.githubusercontent.com/prashanth110203/The-Mahasha-fullweb/main/the-mahasha/public/screenshots/services.png" alt="Services Section" width="100%" />
 </div>
 
 ---
@@ -59,6 +57,36 @@ A modern, high-performance, fully responsive website built for **THE MAHASHA** �
 
 ---
 
+## 📁 Project Structure
+The-Mahasha-fullweb/
+└── the-mahasha/
+├── public/
+│ └── screenshots/
+├── src/
+│ ├── app/
+│ │ ├── globals.css
+│ │ ├── layout.tsx
+│ │ ├── page.tsx
+│ │ ├── training/page.tsx
+│ │ ├── saas/page.tsx
+│ │ ├── projects/page.tsx
+│ │ └── youtube/page.tsx
+│ └── components/
+│ ├── AnimatedCounter.tsx
+│ ├── CTA.tsx
+│ ├── Footer.tsx
+│ ├── Hero.tsx
+│ ├── Navbar.tsx
+│ ├── ScrollReveal.tsx
+│ └── Services.tsx
+├── package.json
+└── tailwind.config.ts
+
+text
+
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -72,10 +100,11 @@ Make sure you have **Node.js 18+** installed.
 git clone https://github.com/prashanth110203/The-Mahasha-fullweb.git
 
 # 2. Enter the project folder
-cd The-Mahasha-fullweb
+cd The-Mahasha-fullweb/the-mahasha
 
 # 3. Install dependencies
 npm install
 
 # 4. Start development server
 npm run dev
+Open your browser and go to: http://localhost:3000
